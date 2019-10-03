@@ -21,12 +21,12 @@ $ composer install
 
 ## Run tests
 
-**Behat** test suites (configuration in behat.yml)
+**Behat** test suite (features: see [features/](features), configuration: [behat.yml](behat.yml))
 ```
 $ vendor/bin/behat
 ```
 
-**PHPSpec** tests (configuration in phpspec.yml)
+**PHPSpec** tests (specifications: see [spec/](spec), configuration: [phpspec.yml](phpspec.yml))
 ```
 $ vendor/bin/phpspec run
 ```
