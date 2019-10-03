@@ -1,0 +1,20 @@
+default:
+    formatters:
+        pretty: true
+    suites:
+        default:
+            contexts:
+                - BankAccountContext
+    extensions:
+        DVDoug\Behat\CodeCoverage\Extension:
+            drivers:
+                - local
+            filter:
+                whitelist:
+                    include:
+                        directories:
+                            'src': ~
+            report:
+                format:   html
+                options:
+                    target: coverage

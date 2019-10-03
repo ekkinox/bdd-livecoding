@@ -1,0 +1,23 @@
+{
+    "name": "ekkinox/bdd",
+    "authors": [
+        {
+            "name": "Jonathan VUILLEMIN",
+            "email": "ekkinox@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "behat/behat": "^3.5",
+        "phpspec/phpspec": "^6.0",
+        "phpunit/phpunit": "^8.3",
+        "dvdoug/behat-code-coverage": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ekkinox\\BDD\\": "src/"
+        }
+    }
+}

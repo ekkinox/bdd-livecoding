@@ -1,0 +1,6 @@
+formatter:
+    name: pretty
+suites:
+    bank_account_suite:
+        namespace: Ekkinox\BDD
+        psr4_prefix: Ekkinox\BDD
